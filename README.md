@@ -7,3 +7,6 @@
 
 ![image](https://user-images.githubusercontent.com/66677660/182036691-431c4a8c-f11e-4188-93c2-25405db2ea6d.png)
 
+>> Virtual machines have a host operating system and a guest operating system inside each VM. The guest OS can be any OS, such as Linux or Windows, irrespective of the host OS. 
+
+>> In contrast, Docker containers are hosted on a single physical server with the host OS shared among them. Sharing the host OS between containers makes them light and decreases the boot time. Docker containers are considered suitable to run multiple applications over a single OS kernel; whereas, virtual machines are needed if the applications or services are required to run on different OS.
